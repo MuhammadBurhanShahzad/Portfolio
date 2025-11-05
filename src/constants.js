@@ -212,8 +212,44 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
-   {
+    {
   id: 1,
+  title: "Deployed a Reddit Clone using Kubernetes,Ingress & Docker",
+  description:
+    "Built and deployed a fully functional Reddit Clone running on a Kubernetes cluster, designed to simulate real-world production infrastructure. The project involved containerizing frontend, backend, and MongoDB services using Docker, deploying them on Kubernetes, and exposing routes through an NGINX Ingress Controller. Using Minikube for a local cloud environment, this hands-on project demonstrates expertise in container orchestration, YAML configuration, scalability, and Kubernetes networking for modern DevOps pipelines.",
+  image: redditLogo, // Use your Reddit or Kubernetes-themed project image
+  tags: ["Kubernetes", "Docker", "Ingress", "Node.js", "MongoDB", "Minikube", "DevOps", "YAML"],
+  webapp: "https://www.linkedin.com/posts/burhan01_kubernetes-devops-docker-ugcPost-7381962277219975169-U-yQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEb3QUQBfZVcP05W8eD0AL3AvvuPXRwDSMA", // replace with your LinkedIn post URL when uploaded
+}
+  {
+  id: 2,
+  title: "VPC-to-VPC Peering Architecture on AWS",
+  description:
+    "Designed and implemented a secure AWS network architecture featuring VPC-to-VPC peering between Test and Production environments. Configured custom VPCs with public and private subnets, NAT Gateway for outbound internet access, and precise routing for inter-VPC communication. Applied security groups and NACLs for controlled ICMP communication, validating seamless network flow. This project enhanced my understanding of cloud networking, infrastructure security, and connectivity within AWS — vital for modern DevOps and Cloud Engineering practices.",
+  image: vpcLogo, // Use an AWS networking or cloud architecture icon
+  tags: ["AWS", "VPC", "VPC Peering", "NAT Gateway", "Networking", "Cloud Computing", "DevOps"],
+  webapp: "https://www.linkedin.com/posts/burhan01_aws-vpcpeering-cloudengineering-ugcPost-7351873371103543296-XthU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEb3QUQBfZVcP05W8eD0AL3AvvuPXRwDSMA", // replace with your LinkedIn post URL when uploaded
+}
+    {
+  id: 3,
+  title: "Automated CI/CD Workflow with GitHub Actions",
+  description:
+    "Implemented a fully automated CI/CD pipeline using GitHub Actions for a UFC-themed static website. The workflow integrated continuous integration, build, and deployment stages, leveraging AWS S3 for hosting and GitHub Secrets for secure credential management. The project highlights hands-on experience with automation, infrastructure as code, and modern DevOps practices using Linux runners, YAML workflows, and cloud deployment automation.",
+  image: ufcLogo, // Use a GitHub Actions or CI/CD pipeline icon
+  tags: ["GitHub Actions", "CI/CD", "AWS S3", "YAML", "Linux", "DevOps", "Automation"],
+  webapp: "https://www.linkedin.com/posts/burhan01_devops-cicd-githubactions-ugcPost-7370006400808243201-35Xb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEb3QUQBfZVcP05W8eD0AL3AvvuPXRwDSMA", // replace with your LinkedIn post URL when uploaded
+}
+    {
+  id: 4,
+  title: "Containerized Multi-Tier Deployment",
+  description:
+    "Architected and deployed a production-grade three-tier Django Notes Application — fully containerized, reverse-proxied, and infrastructure-ready for scale. Implemented Docker and Docker Compose for isolated environments, NGINX as a reverse proxy for intelligent routing, and a SQL database container for persistent storage. The project demonstrates full-stack DevOps practices, including modular architecture, ORM optimization, middleware tuning, and portable deployment pipelines aligned with cloud-native best practices.",
+  image: notesappLogo, // Use a Docker, NGINX, or container icon
+  tags: ["Docker", "NGINX", "Django", "SQL", "DevOps", "Containerization", "Cloud-Native"],
+  webapp: "https://www.linkedin.com/posts/burhan01_devopsengineering-cloudnativedevelopment-activity-7361345811613462528-opMh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEb3QUQBfZVcP05W8eD0AL3AvvuPXRwDSMA", // replace with your LinkedIn post URL when uploaded
+}
+   {
+  id: 5,
   title: "AI-Powered Image Generator",
   description:
     "An advanced AI-based web application built with Next.js 14 and Tailwind CSS that allows users to generate images from text prompts, remove image backgrounds, and replace them with custom scenes. The app leverages powerful APIs and follows a structured file/folder architecture without relying on a heavy database, ensuring fast and efficient performance. Developed with team collaboration and practical DevOps practices for deployment.",
@@ -223,7 +259,7 @@ export const SkillsInfo = [
   webapp: "https://www.linkedin.com/posts/burhan01_ai-machinelearning-nextjs-activity-7293527730489364480-h6wg?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEb3QUQBfZVcP05W8eD0AL3AvvuPXRwDSMA", // Add deployed link here if available
 },
 {
-  id: 2,
+  id: 6,
   title: "Automated Backup Rotation Script",
   description:
     "A Bash script designed to automate daily backups with efficient rotation logic. It creates timestamped `.zip` archives of any source directory, stores them in a target backup folder, and ensures only the 5 most recent backups are retained by automatically deleting older ones. This lightweight automation improves system reliability and reduces manual overhead, making it ideal for DevOps environments and personal servers.",
@@ -232,7 +268,7 @@ export const SkillsInfo = [
   webapp: "https://www.linkedin.com/posts/burhan01_devops-shellscripting-linux-activity-7325858761879769088-V-CI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEb3QUQBfZVcP05W8eD0AL3AvvuPXRwDSMA", // Leave empty or link to a demo video/blog if applicable
 },
 {
-  id: 3,
+  id: 7,
   title: "Website Deployment on AWS (Apache2 + Ubuntu)",
   description:
     "Configured and deployed a live website on an AWS EC2 Ubuntu server using Apache2. This project provided hands-on experience in cloud infrastructure, Linux server management, and web hosting. Tasks included setting up a secure and scalable environment, optimizing server performance, and deploying a responsive web application with real-time accessibility.",
@@ -240,14 +276,6 @@ export const SkillsInfo = [
   tags: ["AWS", "Ubuntu", "Apache2", "Linux", "Cloud Computing", "Server Deployment"],
   webapp: "https://www.linkedin.com/posts/burhan01_cloudcomputing-aws-devops-activity-7298600171645415424-GhDo?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEb3QUQBfZVcP05W8eD0AL3AvvuPXRwDSMA",
 },
-{
-  id: 4,
-  title: "Containerized Multi-Tier Deployment",
-  description:
-    "Architected and deployed a production-grade three-tier Django Notes Application — fully containerized, reverse-proxied, and infrastructure-ready for scale. Implemented Docker and Docker Compose for isolated environments, NGINX as a reverse proxy for intelligent routing, and a SQL database container for persistent storage. The project demonstrates full-stack DevOps practices, including modular architecture, ORM optimization, middleware tuning, and portable deployment pipelines aligned with cloud-native best practices.",
-  image: notesappLogo, // Use a Docker, NGINX, or container icon
-  tags: ["Docker", "NGINX", "Django", "SQL", "DevOps", "Containerization", "Cloud-Native"],
-  webapp: "https://www.linkedin.com/posts/burhan01_devopsengineering-cloudnativedevelopment-activity-7361345811613462528-opMh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEb3QUQBfZVcP05W8eD0AL3AvvuPXRwDSMA", // replace with your LinkedIn post URL when uploaded
-}
+
    
   ];  
