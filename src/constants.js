@@ -64,7 +64,10 @@ import vpsLogo from './assets/education_logo/vps_logo.png';
 import aiImageGenLogo from './assets/work_logo/imgGen.jpg';
 import backupScriptLogo from './assets/work_logo/backup.jpg';
 import awsDeploymentLogo from './assets/work_logo/cloud deployment.jpg';
-
+import notes-appLogo from './assets/work_logo/notesapp.jpeg';
+import redditLogo from './assets/work_logo/reddit.jpeg';
+import ufcLogo from './assets/work_logo/ufc.jpeg';
+import vpcLogo from './assets/work_logo/vpc.jpeg';
 
 export const SkillsInfo = [
   {
@@ -237,6 +240,14 @@ export const SkillsInfo = [
   tags: ["AWS", "Ubuntu", "Apache2", "Linux", "Cloud Computing", "Server Deployment"],
   webapp: "https://www.linkedin.com/posts/burhan01_cloudcomputing-aws-devops-activity-7298600171645415424-GhDo?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEb3QUQBfZVcP05W8eD0AL3AvvuPXRwDSMA",
 },
-
-    
+{
+  id: 3,
+  title: "Containerized Multi-Tier Deployment",
+  description:
+    "Architected and deployed a production-grade three-tier Django Notes Application — fully containerized, reverse-proxied, and infrastructure-ready for scale. Implemented Docker and Docker Compose for isolated environments, NGINX as a reverse proxy for intelligent routing, and a SQL database container for persistent storage. The project demonstrates full-stack DevOps practices, including modular architecture, ORM optimization, middleware tuning, and portable deployment pipelines aligned with cloud-native best practices.",
+  image: notes-appLogo, // Use a Docker, NGINX, or container icon
+  tags: ["Docker", "NGINX", "Django", "SQL", "DevOps", "Containerization", "Cloud-Native"],
+  webapp: "https://www.linkedin.com/posts/burhan01_devopsengineering-cloudnativedevelopment-activity-7361345811613462528-opMh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEb3QUQBfZVcP05W8eD0AL3AvvuPXRwDSMA", // replace with your LinkedIn post URL when uploaded
+}
+   
   ];  
