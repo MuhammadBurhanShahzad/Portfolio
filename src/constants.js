@@ -241,7 +241,7 @@ export const SkillsInfo = [
   webapp: "https://www.linkedin.com/posts/burhan01_cloudcomputing-aws-devops-activity-7298600171645415424-GhDo?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEb3QUQBfZVcP05W8eD0AL3AvvuPXRwDSMA",
 },
 {
-  id: 3,
+  id: 4,
   title: "Containerized Multi-Tier Deployment",
   description:
     "Architected and deployed a production-grade three-tier Django Notes Application — fully containerized, reverse-proxied, and infrastructure-ready for scale. Implemented Docker and Docker Compose for isolated environments, NGINX as a reverse proxy for intelligent routing, and a SQL database container for persistent storage. The project demonstrates full-stack DevOps practices, including modular architecture, ORM optimization, middleware tuning, and portable deployment pipelines aligned with cloud-native best practices.",
