@@ -220,7 +220,7 @@ export const SkillsInfo = [
   image: redditLogo, // Use your Reddit or Kubernetes-themed project image
   tags: ["Kubernetes", "Docker", "Ingress", "Node.js", "MongoDB", "Minikube", "DevOps", "YAML"],
   webapp: "https://www.linkedin.com/posts/burhan01_kubernetes-devops-docker-ugcPost-7381962277219975169-U-yQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEb3QUQBfZVcP05W8eD0AL3AvvuPXRwDSMA", // replace with your LinkedIn post URL when uploaded
-}
+},
   {
   id: 2,
   title: "VPC-to-VPC Peering Architecture on AWS",
@@ -229,7 +229,7 @@ export const SkillsInfo = [
   image: vpcLogo, // Use an AWS networking or cloud architecture icon
   tags: ["AWS", "VPC", "VPC Peering", "NAT Gateway", "Networking", "Cloud Computing", "DevOps"],
   webapp: "https://www.linkedin.com/posts/burhan01_aws-vpcpeering-cloudengineering-ugcPost-7351873371103543296-XthU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEb3QUQBfZVcP05W8eD0AL3AvvuPXRwDSMA", // replace with your LinkedIn post URL when uploaded
-}
+},
     {
   id: 3,
   title: "Automated CI/CD Workflow with GitHub Actions",
@@ -238,7 +238,7 @@ export const SkillsInfo = [
   image: ufcLogo, // Use a GitHub Actions or CI/CD pipeline icon
   tags: ["GitHub Actions", "CI/CD", "AWS S3", "YAML", "Linux", "DevOps", "Automation"],
   webapp: "https://www.linkedin.com/posts/burhan01_devops-cicd-githubactions-ugcPost-7370006400808243201-35Xb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEb3QUQBfZVcP05W8eD0AL3AvvuPXRwDSMA", // replace with your LinkedIn post URL when uploaded
-}
+},
     {
   id: 4,
   title: "Containerized Multi-Tier Deployment",
@@ -247,7 +247,7 @@ export const SkillsInfo = [
   image: notesappLogo, // Use a Docker, NGINX, or container icon
   tags: ["Docker", "NGINX", "Django", "SQL", "DevOps", "Containerization", "Cloud-Native"],
   webapp: "https://www.linkedin.com/posts/burhan01_devopsengineering-cloudnativedevelopment-activity-7361345811613462528-opMh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEb3QUQBfZVcP05W8eD0AL3AvvuPXRwDSMA", // replace with your LinkedIn post URL when uploaded
-}
+},
    {
   id: 5,
   title: "AI-Powered Image Generator",
