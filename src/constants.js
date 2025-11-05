@@ -1,7 +1,8 @@
 // Skills Section Logo's
 import linuxLogo from './assets/tech_logo/linux.png';
 import dockerLogo from './assets/tech_logo/docker.png';
-
+import kubernetesLogo from './assets/tech_logo/k8s.png';
+import terraformLogo from './assets/tech_logo/teraform.png';
 
 import githubActionsLogo from './assets/tech_logo/github actions.png';
 import awsLogo from './assets/tech_logo/aws.png';
