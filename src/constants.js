@@ -2,7 +2,9 @@
 import linuxLogo from './assets/tech_logo/linux.png';
 import dockerLogo from './assets/tech_logo/docker.png';
 import kubernetesLogo from './assets/tech_logo/k8s.png';
-import terraformLogo from './assets/tech_logo/teraform.png';
+import terraformLogo from './assets/tech_logo/terraform.png';
+import PrometheusLogo from './assets/tech_logo/pro.png';
+import GrafanaLogo from './assets/tech_logo/graf.jpeg';
 
 import githubActionsLogo from './assets/tech_logo/github actions.png';
 import awsLogo from './assets/tech_logo/aws.png';
@@ -78,7 +80,11 @@ export const SkillsInfo = [
     { name: 'Apache2', logo: apacheLogo },
     { name: 'Shell Scripting', logo: shellLogo },
     { name: 'CI/CD', logo: cicdLogo },
-    { name: 'Cloud Computing', logo: cloudComputingLogo }, 
+    { name: 'Cloud Computing', logo: cloudComputingLogo },
+    { name: 'k8s', logo: kubernetesLogo },
+    { name: 'Terraform', logo: terraformLogo },
+    { name: 'Prometheus', logo: PrometheusLogo },
+    { name: 'Grafana', logo: GrafanaLogo },
   ],
   },
   {
