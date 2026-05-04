@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/pfp final.jpg';
+import profileImage from '../../assets/pfp portfolio.png';
 
 const About = () => {
   return (
@@ -26,9 +26,9 @@ const About = () => {
             <ReactTypingEffect
               text={[
                 'Student of Software engineering',
-                'Devops Enthusiast',
-                'Cloud Enthusiast',
-                'Infrastructure & Automation Enthusiast',
+                'Devops Engineer',
+                'Cloud Engineer',
+                'Infrastructure & Automation Engineer',
               ]}
               speed={100}
               eraseSpeed={50}
