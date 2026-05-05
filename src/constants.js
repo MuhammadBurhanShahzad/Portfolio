@@ -186,7 +186,7 @@ export const SkillsInfo = [
       img: UniLogo,
       school: "Bahria University, Karachi",
       date: "Sept 2022 - June 2026",
-      grade: "2.34 CGPA",
+      grade: "2.47 CGPA",
       desc: "I am persuing my Bachelor's degree (BSE) in Software Engineering from Bahria University. During my time at Bahria, I gained a strong foundation in programming, software development, and Software engineering principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, Cloud Computing, DevOps, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at University has been instrumental in shaping my technical abilities and professional growth.",
       degree: "Bachelor in Software Engineering - BSE",
     },
