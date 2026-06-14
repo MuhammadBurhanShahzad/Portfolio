@@ -62,12 +62,13 @@ import bsaLogo from './assets/education_logo/bsa_logo.png';
 import vpsLogo from './assets/education_logo/vps_logo.png';
 
 // Project Section Logo's
-
-
+import RagApiLogo from './assets/work_logo/Rag.jpeg';
+import MLOpsLogo from './assets/work_logo/MLOps.jpeg';
 import notesappLogo from './assets/work_logo/notesapp.jpeg';
 import redditLogo from './assets/work_logo/reddit.jpeg';
 import ufcLogo from './assets/work_logo/ufc.jpeg';
 import vpcLogo from './assets/work_logo/vpc.jpeg';
+import devsecopsLogo from './assets/work_logo/devsecops.gif';
 
 export const SkillsInfo = [
   {
@@ -231,6 +232,33 @@ export const SkillsInfo = [
   export const projects = [
     {
   id: 1,
+  title: "AuraForecasting — Production-Grade MLOps/FDE Platform",
+  description:
+    "A full-stack Predictive Intelligence Suite engineered across MLOps, DevOps, SRE, and Forward Deployment Engineering. Built a Flask REST API powered by Meta Prophet for time-series forecasting with auto-industry classification, backed by a Custom Data Lab for CSV ingestion and pipeline automation. Containerized with a multi-process Dockerfile using Nginx reverse proxy and Supervisord, orchestrated on Kubernetes with service discovery and namespace isolation. Integrated Prometheus for real-time SLI tracking and Grafana dashboards for full-stack observability across pod health, CPU/memory, and restart events. Frontend built with React, Tailwind CSS, and Recharts for real-time forecasting visualization.",
+  image: MLOpsLogo, // Add AuraForecasting logo to your assets folder
+  tags: ["MLOps", "Flask", "Meta Prophet", "Kubernetes", "Docker", "Prometheus", "Grafana", "React", "Tailwind CSS", "Nginx", "SRE", "DevOps"],
+  webapp: "https://www.linkedin.com/posts/burhan01_ai-mlops-devops-activity-7450855702467670016-55TE?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEb3QUQBfZVcP05W8eD0AL3AvvuPXRwDSMA", // or your LinkedIn post URL
+},
+    {
+  id: 2,
+  title: "RAG API — Deployed on Kubernetes with CI/CD",
+  description:
+    "Built and deployed a production-ready Retrieval-Augmented Generation (RAG) API using FastAPI, ChromaDB for document embeddings, and Ollama as the local LLM — enabling context-aware answer generation from custom knowledge bases. Containerized with Docker for consistent cross-environment deployment and orchestrated on Kubernetes with self-healing pods, service routing, and ConfigMap-driven configuration management. Automated the full delivery lifecycle with a GitHub Actions CI/CD pipeline featuring semantic API tests and a Mock LLM mode for deterministic, dependency-free CI validation. Modular architecture designed for scalability and production reliability.",
+  image: RagApiLogo, // Add RAG or AI-themed logo to your assets folder
+  tags: ["RAG", "FastAPI", "ChromaDB", "Ollama", "LLMOps", "Docker", "Kubernetes", "GitHub Actions", "CI/CD", "Python", "AI Infrastructure"],
+  webapp: "https://www.linkedin.com/posts/burhan01_devops-x-ai-activity-7419647670178361344-e-sX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEb3QUQBfZVcP05W8eD0AL3AvvuPXRwDSMA", // Add LinkedIn post or demo link here
+},
+    {
+  id: 3,
+  title: "End-to-End DevSecOps CI/CD Pipeline on Kubernetes",
+  description:
+    "Designed and implemented a production-grade DevSecOps CI/CD pipeline for a containerized React + TypeScript application, embedding security directly into every stage of delivery. Pipeline triggers on main branch pushes with automated unit testing via Vitest, static analysis with ESLint, multi-stage Docker builds to minimize runtime surface, and container vulnerability scanning using Trivy. Publishes versioned immutable images to a container registry and auto-updates Kubernetes deployment manifests for GitOps-compatible delivery via Argo CD or Flux. Enforced least-privilege authentication with GitHub-managed tokens, immutable image tagging for full traceability and rollback safety, and end-to-end auditability from code to image to cluster.",
+  image: devsecopsLogo, // Add a DevSecOps or pipeline-themed logo to your assets folder
+  tags: ["DevSecOps", "GitHub Actions", "Trivy", "Kubernetes", "Docker", "GitOps", "Argo CD", "React", "TypeScript", "Vitest", "ESLint", "CI/CD"],
+  webapp: "https://tiktaktoe-devsecops.vercel.app/",
+},
+    {
+  id: 4,
   title: "Deployed a Reddit Clone using Kubernetes,Ingress & Docker",
   description:
     "Built and deployed a fully functional Reddit Clone running on a Kubernetes cluster, designed to simulate real-world production infrastructure. The project involved containerizing frontend, backend, and MongoDB services using Docker, deploying them on Kubernetes, and exposing routes through an NGINX Ingress Controller. Using Minikube for a local cloud environment, this hands-on project demonstrates expertise in container orchestration, YAML configuration, scalability, and Kubernetes networking for modern DevOps pipelines.",
@@ -239,7 +267,7 @@ export const SkillsInfo = [
   webapp: "https://www.linkedin.com/posts/burhan01_kubernetes-devops-docker-ugcPost-7381962277219975169-U-yQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEb3QUQBfZVcP05W8eD0AL3AvvuPXRwDSMA", // replace with your LinkedIn post URL when uploaded
 },
   {
-  id: 1,
+  id: 5,
   title: "VPC-to-VPC Peering Architecture on AWS",
   description:
     "Designed and implemented a secure AWS network architecture featuring VPC-to-VPC peering between Test and Production environments. Configured custom VPCs with public and private subnets, NAT Gateway for outbound internet access, and precise routing for inter-VPC communication. Applied security groups and NACLs for controlled ICMP communication, validating seamless network flow. This project enhanced my understanding of cloud networking, infrastructure security, and connectivity within AWS — vital for modern DevOps and Cloud Engineering practices.",
@@ -248,7 +276,7 @@ export const SkillsInfo = [
   webapp: "https://www.linkedin.com/posts/burhan01_aws-vpcpeering-cloudengineering-ugcPost-7351873371103543296-XthU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEb3QUQBfZVcP05W8eD0AL3AvvuPXRwDSMA", // replace with your LinkedIn post URL when uploaded
 },
     {
-  id: 2,
+  id: 6,
   title: "Automated CI/CD Workflow with GitHub Actions",
   description:
     "Implemented a fully automated CI/CD pipeline using GitHub Actions for a UFC-themed static website. The workflow integrated continuous integration, build, and deployment stages, leveraging AWS S3 for hosting and GitHub Secrets for secure credential management. The project highlights hands-on experience with automation, infrastructure as code, and modern DevOps practices using Linux runners, YAML workflows, and cloud deployment automation.",
@@ -257,7 +285,7 @@ export const SkillsInfo = [
   webapp: "https://www.linkedin.com/posts/burhan01_devops-cicd-githubactions-ugcPost-7370006400808243201-35Xb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEb3QUQBfZVcP05W8eD0AL3AvvuPXRwDSMA", // replace with your LinkedIn post URL when uploaded
 },
     {
-  id: 3,
+  id: 7,
   title: "Containerized Multi-Tier Deployment",
   description:
     "Architected and deployed a production-grade three-tier Django Notes Application — fully containerized, reverse-proxied, and infrastructure-ready for scale. Implemented Docker and Docker Compose for isolated environments, NGINX as a reverse proxy for intelligent routing, and a SQL database container for persistent storage. The project demonstrates full-stack DevOps practices, including modular architecture, ORM optimization, middleware tuning, and portable deployment pipelines aligned with cloud-native best practices.",
