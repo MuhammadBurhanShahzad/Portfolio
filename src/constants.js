@@ -62,7 +62,7 @@ import bsaLogo from './assets/education_logo/bsa_logo.png';
 import vpsLogo from './assets/education_logo/vps_logo.png';
 
 // Project Section Logo's
-import RagApiLogo from './assets/work_logo/Rag.jpeg';
+import RagApiLogo from './assets/work_logo/Rag.png';
 import MLOpsLogo from './assets/work_logo/MLOps.jpeg';
 import notesappLogo from './assets/work_logo/notesapp.jpeg';
 import redditLogo from './assets/work_logo/reddit.jpeg';
