@@ -68,7 +68,7 @@ import notesappLogo from './assets/work_logo/notesapp.jpeg';
 import redditLogo from './assets/work_logo/reddit.jpeg';
 import ufcLogo from './assets/work_logo/ufc.jpeg';
 import vpcLogo from './assets/work_logo/vpc.jpeg';
-import devsecopsLogo from './assets/work_logo/devsecops.gif';
+import DevsecopsLogo from './assets/work_logo/devsecops.gif';
 
 export const SkillsInfo = [
   {
@@ -253,7 +253,7 @@ export const SkillsInfo = [
   title: "End-to-End DevSecOps CI/CD Pipeline on Kubernetes",
   description:
     "Designed and implemented a production-grade DevSecOps CI/CD pipeline for a containerized React + TypeScript application, embedding security directly into every stage of delivery. Pipeline triggers on main branch pushes with automated unit testing via Vitest, static analysis with ESLint, multi-stage Docker builds to minimize runtime surface, and container vulnerability scanning using Trivy. Publishes versioned immutable images to a container registry and auto-updates Kubernetes deployment manifests for GitOps-compatible delivery via Argo CD or Flux. Enforced least-privilege authentication with GitHub-managed tokens, immutable image tagging for full traceability and rollback safety, and end-to-end auditability from code to image to cluster.",
-  image: devsecopsLogo, // Add a DevSecOps or pipeline-themed logo to your assets folder
+  image: DevsecopsLogo, // Add a DevSecOps or pipeline-themed logo to your assets folder
   tags: ["DevSecOps", "GitHub Actions", "Trivy", "Kubernetes", "Docker", "GitOps", "Argo CD", "React", "TypeScript", "Vitest", "ESLint", "CI/CD"],
   webapp: "https://tiktaktoe-devsecops.vercel.app/",
 },
