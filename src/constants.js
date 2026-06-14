@@ -51,6 +51,7 @@ import csharpLogo from './assets/tech_logo/csharp.png';
 // Experience Section Logo's
 import mcdonaldsLogo from  './assets/company_logo/mcdonalds.png';
 import uniprojectsLogo from  './assets/company_logo/uni projects.png';
+import InternshipLogo from  './assets/company_logo/CA.jpeg';
 
 // Education Section Logo's
 import UniLogo from './assets/education_logo/uni2.jpg';
@@ -61,9 +62,8 @@ import bsaLogo from './assets/education_logo/bsa_logo.png';
 import vpsLogo from './assets/education_logo/vps_logo.png';
 
 // Project Section Logo's
-import aiImageGenLogo from './assets/work_logo/imgGen.jpg';
-import backupScriptLogo from './assets/work_logo/backup.jpg';
-import awsDeploymentLogo from './assets/work_logo/cloud deployment.jpg';
+
+
 import notesappLogo from './assets/work_logo/notesapp.jpeg';
 import redditLogo from './assets/work_logo/reddit.jpeg';
 import ufcLogo from './assets/work_logo/ufc.jpeg';
@@ -143,7 +143,42 @@ export const SkillsInfo = [
   },
 ];
 
-  export const experiences = [
+  export const experiences = [ 
+    {
+  id: 1,
+  img: InternshipLogo, // Add Crafty Automation logo to your assets folder
+  role: "DevOps Engineer Intern",
+  company: "Crafty Automation",
+  date: "June 2024 - August 2024",
+  desc: "Completed a DevOps internship focused on automating infrastructure and streamlining deployment pipelines. Worked with containerization, CI/CD tooling, and cloud services to improve deployment efficiency and system reliability in a production environment.",
+  skills: [
+    "Docker",
+    "Linux",
+    "CI/CD",
+    "GitHub Actions",
+    "AWS",
+    "Shell Scripting",
+    "Automation",
+  ],
+},
+    {
+  id: 2,
+  img: uniprojectsLogo, // Add Bahria University or a placeholder logo
+  role: "Software Engineering Student (Project-Based Experience)",
+  company: "Bahria University, Karachi",
+  date: "September 2021 – June 2026",
+  desc: "Over the past years, I’ve led and contributed to multiple academic and self-initiated projects across web, mobile, and DevOps domains. These projects reflect real-world application of fullstack development, Android app creation, cloud deployment, and DevOps practices. I have built production-ready interfaces, implemented API integrations, containerized applications using Docker, and deployed them on cloud servers using Linux, Apache2, and AWS. These hands-on experiences have strengthened my problem-solving, teamwork, and delivery mindset, aligning me with industry standards.",
+  skills: [
+    "Fullstack Development",
+    "Android Development",
+    "DevOps",
+    "Cloud Computing",
+    "Docker",
+    "CI/CD",
+    "Linux",
+    "Agile",
+  ],
+},
     {
   id: 3,
   img: mcdonaldsLogo, // Add McDonald's logo to your assets folder
@@ -160,24 +195,6 @@ export const SkillsInfo = [
     "Adaptability",
   ],
 },
-    {
-  id: 0,
-  img: uniprojectsLogo, // Add Bahria University or a placeholder logo
-  role: "Software Engineering Student (Project-Based Experience)",
-  company: "Bahria University, Karachi",
-  date: "September 2021 – Present",
-  desc: "Over the past three years, I’ve led and contributed to multiple academic and self-initiated projects across web, mobile, and DevOps domains. These projects reflect real-world application of fullstack development, Android app creation, cloud deployment, and DevOps practices. I have built production-ready interfaces, implemented API integrations, containerized applications using Docker, and deployed them on cloud servers using Linux, Apache2, and AWS. These hands-on experiences have strengthened my problem-solving, teamwork, and delivery mindset, aligning me with industry standards.",
-  skills: [
-    "Fullstack Development",
-    "Android Development",
-    "DevOps",
-    "Cloud Computing",
-    "Docker",
-    "CI/CD",
-    "Linux",
-    "Agile",
-  ],
-},
   ];
   
   export const education = [
@@ -187,7 +204,7 @@ export const SkillsInfo = [
       school: "Bahria University, Karachi",
       date: "Sept 2022 - June 2026",
       grade: "2.47 CGPA",
-      desc: "I am persuing my Bachelor's degree (BSE) in Software Engineering from Bahria University. During my time at Bahria, I gained a strong foundation in programming, software development, and Software engineering principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, Cloud Computing, DevOps, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at University has been instrumental in shaping my technical abilities and professional growth.",
+      desc: "I Graduate in Bachelor's degree (BSE) in Software Engineering from Bahria University. During my time at Bahria, I gained a strong foundation in programming, software development, and Software engineering principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, Cloud Computing, DevOps, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at University has been instrumental in shaping my technical abilities and professional growth.",
       degree: "Bachelor in Software Engineering - BSE",
     },
     {
@@ -222,7 +239,7 @@ export const SkillsInfo = [
   webapp: "https://www.linkedin.com/posts/burhan01_kubernetes-devops-docker-ugcPost-7381962277219975169-U-yQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEb3QUQBfZVcP05W8eD0AL3AvvuPXRwDSMA", // replace with your LinkedIn post URL when uploaded
 },
   {
-  id: 2,
+  id: 1,
   title: "VPC-to-VPC Peering Architecture on AWS",
   description:
     "Designed and implemented a secure AWS network architecture featuring VPC-to-VPC peering between Test and Production environments. Configured custom VPCs with public and private subnets, NAT Gateway for outbound internet access, and precise routing for inter-VPC communication. Applied security groups and NACLs for controlled ICMP communication, validating seamless network flow. This project enhanced my understanding of cloud networking, infrastructure security, and connectivity within AWS — vital for modern DevOps and Cloud Engineering practices.",
@@ -231,7 +248,7 @@ export const SkillsInfo = [
   webapp: "https://www.linkedin.com/posts/burhan01_aws-vpcpeering-cloudengineering-ugcPost-7351873371103543296-XthU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEb3QUQBfZVcP05W8eD0AL3AvvuPXRwDSMA", // replace with your LinkedIn post URL when uploaded
 },
     {
-  id: 3,
+  id: 2,
   title: "Automated CI/CD Workflow with GitHub Actions",
   description:
     "Implemented a fully automated CI/CD pipeline using GitHub Actions for a UFC-themed static website. The workflow integrated continuous integration, build, and deployment stages, leveraging AWS S3 for hosting and GitHub Secrets for secure credential management. The project highlights hands-on experience with automation, infrastructure as code, and modern DevOps practices using Linux runners, YAML workflows, and cloud deployment automation.",
@@ -240,7 +257,7 @@ export const SkillsInfo = [
   webapp: "https://www.linkedin.com/posts/burhan01_devops-cicd-githubactions-ugcPost-7370006400808243201-35Xb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEb3QUQBfZVcP05W8eD0AL3AvvuPXRwDSMA", // replace with your LinkedIn post URL when uploaded
 },
     {
-  id: 4,
+  id: 3,
   title: "Containerized Multi-Tier Deployment",
   description:
     "Architected and deployed a production-grade three-tier Django Notes Application — fully containerized, reverse-proxied, and infrastructure-ready for scale. Implemented Docker and Docker Compose for isolated environments, NGINX as a reverse proxy for intelligent routing, and a SQL database container for persistent storage. The project demonstrates full-stack DevOps practices, including modular architecture, ORM optimization, middleware tuning, and portable deployment pipelines aligned with cloud-native best practices.",
@@ -248,34 +265,6 @@ export const SkillsInfo = [
   tags: ["Docker", "NGINX", "Django", "SQL", "DevOps", "Containerization", "Cloud-Native"],
   webapp: "https://www.linkedin.com/posts/burhan01_devopsengineering-cloudnativedevelopment-activity-7361345811613462528-opMh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEb3QUQBfZVcP05W8eD0AL3AvvuPXRwDSMA", // replace with your LinkedIn post URL when uploaded
 },
-   {
-  id: 5,
-  title: "AI-Powered Image Generator",
-  description:
-    "An advanced AI-based web application built with Next.js 14 and Tailwind CSS that allows users to generate images from text prompts, remove image backgrounds, and replace them with custom scenes. The app leverages powerful APIs and follows a structured file/folder architecture without relying on a heavy database, ensuring fast and efficient performance. Developed with team collaboration and practical DevOps practices for deployment.",
-  image: aiImageGenLogo, // Replace with your project image/logo
-  tags: ["Next.js", "Tailwind CSS", "JavaScript", "AI API", "Image Processing"],
-  github: "https://github.com/MuhammadBurhanShahzad/Craftify.ai",
-  webapp: "https://www.linkedin.com/posts/burhan01_ai-machinelearning-nextjs-activity-7293527730489364480-h6wg?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEb3QUQBfZVcP05W8eD0AL3AvvuPXRwDSMA", // Add deployed link here if available
-},
-{
-  id: 6,
-  title: "Automated Backup Rotation Script",
-  description:
-    "A Bash script designed to automate daily backups with efficient rotation logic. It creates timestamped `.zip` archives of any source directory, stores them in a target backup folder, and ensures only the 5 most recent backups are retained by automatically deleting older ones. This lightweight automation improves system reliability and reduces manual overhead, making it ideal for DevOps environments and personal servers.",
-  image: backupScriptLogo, // Replace with a Bash/terminal themed logo or your own
-  tags: ["Bash", "Shell Scripting", "Linux", "Automation", "DevOps"],
-  webapp: "https://www.linkedin.com/posts/burhan01_devops-shellscripting-linux-activity-7325858761879769088-V-CI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEb3QUQBfZVcP05W8eD0AL3AvvuPXRwDSMA", // Leave empty or link to a demo video/blog if applicable
-},
-{
-  id: 7,
-  title: "Website Deployment on AWS (Apache2 + Ubuntu)",
-  description:
-    "Configured and deployed a live website on an AWS EC2 Ubuntu server using Apache2. This project provided hands-on experience in cloud infrastructure, Linux server management, and web hosting. Tasks included setting up a secure and scalable environment, optimizing server performance, and deploying a responsive web application with real-time accessibility.",
-  image: awsDeploymentLogo, // Use a cloud/server icon or AWS logo
-  tags: ["AWS", "Ubuntu", "Apache2", "Linux", "Cloud Computing", "Server Deployment"],
-  webapp: "https://www.linkedin.com/posts/burhan01_cloudcomputing-aws-devops-activity-7298600171645415424-GhDo?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEb3QUQBfZVcP05W8eD0AL3AvvuPXRwDSMA",
-},
-
+ 
    
   ];  
