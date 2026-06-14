@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/portfolio.png';
+import profileImage from '../../assets/Fair onw.png';
 
 const About = () => {
   return (
@@ -25,7 +25,7 @@ const About = () => {
             <span className="text-white">I am a </span>
             <ReactTypingEffect
               text={[
-                'Student of Software engineering',
+                'Software Engineer',
                 'Devops Engineer',
                 'Cloud Engineer',
                 'Infrastructure & Automation Engineer',
@@ -41,11 +41,11 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I'm a final-year Software Engineering student passionate about DevOps. I work with Linux, Docker, GitHub, AWS, and CI/CD tools to automate and streamline deployments. From containerizing apps to managing cloud servers, I enjoy building scalable and efficient systems. I'm eager to grow as a DevOps Engineer and contribute to impactful tech projects.
+            I'm a Software Engineer at the intersection of DevOps and AI infrastructure — building systems that scale without breaking the bank.I don't just deploy applications. I architect the pipelines, observability stacks, and cloud workflows that keep them running efficiently at scale. My obsession: making AI infrastructure cost-efficient and production-ready.Fresh graduate.
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1CJwPqR3kX6t6EhJ91Wbq1FyBE-fHU1Fa/view?usp=sharing"
+            href="https://drive.google.com/file/d/10JJKMtCjAGxsyulgyvaT_G9KmKqEIjYg/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
